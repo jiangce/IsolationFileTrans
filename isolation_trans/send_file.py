@@ -10,7 +10,7 @@ class SendFileProcessor:
         self.target_path = target_path
 
     def __call__(self, fullname):
-        while True:
+        for i in range(5):
             try:
                 if os.path.exists(fullname):
                     size = os.path.getsize(fullname)
