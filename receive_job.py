@@ -2,8 +2,8 @@
 
 from isolation_trans import start_watch_receive
 
-ISOLATION_PATH = r'C:\togeek\isolation2'
-FILE_PATH = r'C:\togeek'
+ISOLATION_PATH = r'C:\togeek\isolation'
+FILE_PATH = r'C:\togeek\com\receive'
 
 
 def start():
