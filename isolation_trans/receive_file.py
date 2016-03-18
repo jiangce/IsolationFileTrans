@@ -17,7 +17,7 @@ class ReceiveFileProcessor:
             return None
 
     def __call__(self, fullname):
-        for i in range(5):
+        for i in range(10):
             try:
                 if os.path.exists(fullname) and os.path.getsize(fullname) == self.check_size(fullname):
                     target_name = os.path.basename(os.path.splitext(fullname)[0])
